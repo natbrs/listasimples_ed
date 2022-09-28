@@ -10,4 +10,4 @@ Estruturas de dados não lineares não organizamos dados consecutivamente, em ve
 
 ## Estrutura de Dados
 
-<img src="https://uploaddeimagens.com.br/imagens/aBjtrh4">
+<img src="https://i.imgur.com/a/JxJxkKv.png">
