@@ -2,7 +2,7 @@
 
 ## Conceito de estruturas lineares
 
-Estruturas lineares são aquelas que mantém os seus itens de forma independente de seus conteúdos , ou seja , onde qualquer tipo de interpretação dos dados que são armazenados é irrelevante para a manutenção da estrutura. 
+Estruturas lineares são aquelas que mantém os seus itens de forma independente de seus conteúdos, ou seja, onde qualquer tipo de interpretação dos dados que são armazenados é irrelevante para a manutenção da estrutura. 
 
 ## Conceito de estruturas não lineares 
 
@@ -11,6 +11,10 @@ Estruturas de dados não lineares não organizamos dados consecutivamente, em ve
 ## Estrutura de Dados
 <div align="center">
         <div id="b2">
-    <img src="https://i.imgur.com/w3bFdTe.png" width="60%">
+           <img src="https://i.imgur.com/bnQDVDe.png" width="60%">
+           <img src="https://i.imgur.com/tdv79vq.png" width="60%">
+    
     </div>
 </div>
+
+## 
