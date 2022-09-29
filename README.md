@@ -17,4 +17,8 @@ Estruturas de dados não lineares não organizamos dados consecutivamente, em ve
     </div>
 </div>
 
-## 
+<style>
+    .center {
+    display: flex;
+  }
+</style>
