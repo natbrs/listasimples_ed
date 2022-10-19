@@ -1,5 +1,10 @@
 # Lista Simples - ED
 
+## Introdução
+
+Uma lista encadeada é uma sequência de elementos encadeados um após o outro. 
+
+
 ## Conceito de estruturas lineares
 
 Estruturas lineares são aquelas que mantém os seus itens de forma independente de seus conteúdos, ou seja, onde qualquer tipo de interpretação dos dados que são armazenados é irrelevante para a manutenção da estrutura. 
