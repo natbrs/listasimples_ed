@@ -14,3 +14,166 @@ Uma lista encadeada é uma sequência de elementos encadeados um após o outro. 
 ## Representação gráfica da lista
 
 <img src="https://i.imgur.com/M7biZTl.png">
+
+## Criando o nó
+
+```
+public class No{
+    private String elemento;
+    private No proximo; 
+    private No cauda;
+    
+    public No(String elemento, No proximo) {
+         this.elemento = elemento;
+         this.proximo = proximo;
+    }
+    
+    public String getElemento() { 
+         return elemento; 
+    }
+
+    public void setElemento(String elemento) { 
+         this.elemento = elemento;
+    }
+    
+    public No getProximo() {
+         return proximo;
+    }
+    
+    public void setProximo(No proximo)
+        this.proximo = proximo;
+    }
+    
+    public No getCauda(){
+        return cauda;
+    }
+    
+    public void setCauda(No cauda) { 
+        this.cauda = cauda;
+    }
+}
+```
+
+## Criando a Lista
+
+```
+public class ListaEncadeadaSimples{ 
+    No cabeca = null;
+    Integer tamanho = 0;
+    No cauda = null;
+}
+```
+
+## Adicionar o Primeiro Elemento na Lista
+
+```
+public void adicionaPrimeiroElemento(No no){
+     //lista vazia
+     if (tamanho == 0){ 
+         cauda = no;
+         cabeca = no;
+     }else{ 
+         no.setProximo(cabeca);
+         cabeca = no;
+     }
+     tamanho++;
+}
+```
+
+## Adicionar um elemento na Lista
+
+```
+public void adicionaElemento(No no){
+    if(tamanho == 0){
+       cabeca.setProximo(no);
+       cabeca.setProximo(no);
+    }else{ 
+        cauda.setProximo(no);
+        cauda = no;
+    }
+    tamanho++;
+}
+```
+## Verificar se a posição está ocupada
+
+```
+private boolean posicaoOcupada(int posicao){ 
+    return posicao >= 0 && posicao < tamanho;
+}
+```
+
+## Verificar se a posição está ocupada
+
+```
+private No pegaPosicao(int posicao) { 
+    if(!this.posicaoOcupada(posicao)){
+        throw new IllegalArgumentException("Posição não existe");
+    }
+    No atual = cabeça;
+    for (int i = 0; < posicao-1; i++) {
+        atual = atual.getProximo(); 
+    }
+    return atual;
+}
+```
+
+## Pegar o nó pela posição na lista
+
+```
+private No pegaPosicao(int posicao) {
+    if (!this.posicaoOcupada(posicao)) { 
+        throw new IllegalArgumentException("Posição não existe");
+    }
+    No atual = cabeca;
+    for (int i = 0; i < posicao-1; i++){ 
+         atual = atual.getProximo();
+    }
+    return atual;
+}
+```
+
+## Pegar um elemento pela posição 
+
+```
+public String pegaElemento(int posicao){ 
+    return this.pegaNo(posicao).getElemento();
+}
+```
+
+## Remover a cabeça da Lista
+
+```
+public void removeCabeca() {
+    if (!this.posicaoOcupada(0)) {
+        throw new IllegalArgumentException("Posição não existe");
+        }
+     cabeca = cabeca.getProximo();
+     tamanho--;
+     if (this.tamanho == 0) {
+         this.cauda = null;
+     }
+ }
+```
+
+##Exibir a lista
+
+```
+public String toString() {
+   // Verificando se a Lista está vazia
+   if (tamanho == 0){ 
+        return "[]";
+   }
+   StringBuilder builder = new StrigBuilder("[");
+   No atual = cabeça;
+   // Percorrendo até o penúltimo elemento.
+   for (int i = 0; i < tamanho - 1; i++) {
+        builder.append(atual.getElemento());
+        builder.append(", ");
+        atual = atual.getProximo();
+   }
+   // Último elemento
+   builder.append(atual.getElemento());
+   builder.append("]");
+   return builder.toString();
+```
+
