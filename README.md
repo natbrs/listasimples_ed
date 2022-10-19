@@ -11,8 +11,8 @@ Estruturas de dados não lineares não organizamos dados consecutivamente, em ve
 ## Estrutura de Dados
 <div align="center" style="display: flex;">
         <div id="b2">
-           <img src="https://i.imgur.com/bnQDVDe.png" width="40%" left="-100px">
+           <img src="https://i.imgur.com/bnQDVDe.png" width="40%" left="-10px">
          
     
     </div>
-</div>
+
