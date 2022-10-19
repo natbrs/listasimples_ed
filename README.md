@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Uma lista encadeada é uma sequência de elementos encadeados um após o outro. Esses elementos são vários nodos, que possuem dados e também duas referências que apontam para o nodo anterior.
+Uma lista encadeada é uma representação de uma sequência de objetos, todos do mesmo tipo, na memória RAM (= random access memory) do computador. Cada elemento da sequência é armazenado em uma célula da lista: o primeiro elemento na primeira célula, o segundo na segunda, e assim por diante.
 
 
 ## Conceito de Lista Encadeada
