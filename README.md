@@ -13,4 +13,4 @@ Uma lista encadeada é uma sequência de elementos encadeados um após o outro. 
 
 ## Representação gráfica da lista
 
-<img src="i.imgur.com/M7biZTl.png">
+<img src="https://i.imgur.com/M7biZTl.png">
