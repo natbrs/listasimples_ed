@@ -19,4 +19,8 @@ Estruturas de dados não lineares não organizamos dados consecutivamente, em ve
            <img src="https://i.imgur.com/bnQDVDe.png" width="40%" left="-10px">
          
  
-
+<script>
+       
+        
+        
+                </script>
