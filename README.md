@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Uma lista encadeada é uma sequência de elementos encadeados um após o outro. 
+Uma lista encadeada é uma sequência de elementos encadeados um após o outro. Esses elementos são umas vários nodos, que possuem dados e também duas referências que apontam para o nodo anterior.
 
 
 ## Conceito de estruturas lineares
