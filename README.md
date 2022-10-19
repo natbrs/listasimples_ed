@@ -32,6 +32,10 @@ public class No{
          return elemento; 
     }
 
+<div align="center">
+    © Material fornecido por <a href="https://br.linkedin.com/in/icarofreitas">Prof° Ícaro de Paula Freitas</a></p>
+</div>
+
     public void setElemento(String elemento) { 
          this.elemento = elemento;
     }
