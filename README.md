@@ -12,7 +12,7 @@ Estruturas de dados não lineares não organizamos dados consecutivamente, em ve
 <div align="center" style="display: flex;">
         <div id="b2">
            <img src="https://i.imgur.com/bnQDVDe.png" width="60%">
-           <img src="https://i.imgur.com/tdv79vq.png" width="60%">
+         
     
     </div>
 </div>
