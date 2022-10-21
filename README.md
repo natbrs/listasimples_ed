@@ -1,8 +1,10 @@
-# Lista Simples - ED
+<h1 align="center">
+Lista 🎎<br>
+(Estrutura de Dados)
 
 ## Introdução
 
-Uma lista encadeada é uma representação de uma sequência de objetos, todos do mesmo tipo, na memória RAM (= random access memory) do computador. Cada elemento da sequência é armazenado em uma célula da lista: o primeiro elemento na primeira célula, o segundo na segunda, e assim por diante.
+> Uma lista encadeada é uma representação de uma sequência de objetos, todos do mesmo tipo, na memória RAM (= random access memory) do computador. Cada elemento da sequência é armazenado em uma célula da lista: o primeiro elemento na primeira célula, o segundo na segunda, e assim por diante.
 
 
 ## Conceito de Lista Encadeada
