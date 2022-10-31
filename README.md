@@ -157,7 +157,7 @@ public void removeCabeca() {
  }
 ```
 
-##Exibir a lista
+## Exibir a lista
 
 ```
 public String toString() {
@@ -177,6 +177,7 @@ public String toString() {
    builder.append(atual.getElemento());
    builder.append("]");
    return builder.toString();
+}
 ```
 
 
